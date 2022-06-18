@@ -19,7 +19,7 @@ const PerksModule: React.FC<HTMLAttributes<HTMLDivElement>> = () => {
       <div className="container container__tight">
         <Perk
           title="Built For Speed"
-          content="By using GatsbyJS, the Barcadia site is super-fast out of the box"
+          content="By using GatsbyJS, the GeekLand site is super-fast out of the box"
         >
           <StaticImage
             src="../../../static/logos/gatsby-logo.svg"

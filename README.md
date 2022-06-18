@@ -1,17 +1,17 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <h1 align="center">
-  Barcadia V2 Starter
+  GeekLand V2 Starter
 </h1>
 
 [Version 2 Release Notes](https://www.morganbaker.dev/journal/barcadia-v2-release-notes)
 
-Barcadia is a GatsbyJS starter theme that uses Contentful for content management. It includes the main configuration files found in Gatsby.
+GeekLand is a GatsbyJS starter theme that uses Contentful for content management. It includes the main configuration files found in Gatsby.
 
 ## Getting started
 
 1.  **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, specifying the Barcadia starter.
+    Use the Gatsby CLI to create a new site, specifying the GeekLand starter.
 
     ```shell
     # create a new Gatsby site using the barcadia starter

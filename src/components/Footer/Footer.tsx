@@ -59,7 +59,7 @@ const Footer = () => {
         {siteMetadata.instagramUsername || siteMetadata.linkedinUsername ? (
           <FooterMenuStyles className="footer__menu social__menu">
             <h5>
-              Follow Barcadia<span>.</span>
+              Follow GeekLand<span>.</span>
             </h5>
             <ul>
               {siteMetadata.instagramUsername && (

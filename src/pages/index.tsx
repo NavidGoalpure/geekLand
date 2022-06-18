@@ -14,8 +14,8 @@ const Index = () => {
       <Seo title="Home" />
       <Layout>
         <BannerModule
-          title="Welcome to Barcadia"
-          subTitle="Using a combination of Gatsby and Contentful, Barcadia is ready to deploy and simple to use."
+          title="Welcome to GeekLand"
+          subTitle="Using a combination of Gatsby and Contentful, GeekLand is ready to deploy and simple to use."
         />
         <BasicTextModule
           title="A super-fast theme that is easy to get started, using the power of
@@ -30,11 +30,11 @@ const Index = () => {
           <Perk title="The Title" content="The content" />
         </PerksModule>
         <Features
-          title="Featured Products from Barcadia."
+          title="Featured Products from GeekLand."
           introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
         />
         <LatestPosts
-          title="The Latest from Barcadia"
+          title="The Latest from GeekLand"
           introduction="Cras scelerisque, tellus sed gravida tincidunt, velit tellus blandit justo, nec viverra augue erat in erat. Maecenas iaculis sed purus non fringilla."
         />
       </Layout>

@@ -73,9 +73,7 @@
           "required": true,
           "validations": [
             {
-              "linkMimetypeGroup": [
-                "image"
-              ]
+              "linkMimetypeGroup": ["image"]
             },
             {
               "assetFileSize": {
@@ -94,8 +92,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -105,8 +102,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -118,12 +114,7 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": [
-                "bold",
-                "italic",
-                "underline",
-                "code"
-              ],
+              "enabledMarks": ["bold", "italic", "underline", "code"],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -143,8 +134,7 @@
               "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, unordered list, ordered list, quote, horizontal rule, link to Url, and link to entry nodes are allowed"
             },
             {
-              "nodes": {
-              }
+              "nodes": {}
             }
           ],
           "disabled": false,
@@ -158,10 +148,7 @@
           "required": true,
           "validations": [
             {
-              "in": [
-                "feed",
-                "default"
-              ]
+              "in": ["feed", "default"]
             }
           ],
           "disabled": false,
@@ -175,10 +162,7 @@
           "required": false,
           "validations": [
             {
-              "in": [
-                "Posts",
-                "Products"
-              ]
+              "in": ["Posts", "Products"]
             }
           ],
           "disabled": false,
@@ -243,8 +227,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -254,8 +237,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -265,8 +247,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -278,12 +259,7 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": [
-                "bold",
-                "italic",
-                "underline",
-                "code"
-              ],
+              "enabledMarks": ["bold", "italic", "underline", "code"],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -303,8 +279,7 @@
               "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, link to entry, and link to Url nodes are allowed"
             },
             {
-              "nodes": {
-              }
+              "nodes": {}
             }
           ],
           "disabled": false,
@@ -369,8 +344,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -380,8 +354,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -393,9 +366,7 @@
           "required": true,
           "validations": [
             {
-              "linkMimetypeGroup": [
-                "image"
-              ]
+              "linkMimetypeGroup": ["image"]
             },
             {
               "assetFileSize": {
@@ -442,8 +413,7 @@
           "type": "Number",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -455,12 +425,7 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": [
-                "bold",
-                "italic",
-                "underline",
-                "code"
-              ],
+              "enabledMarks": ["bold", "italic", "underline", "code"],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -480,8 +445,7 @@
               "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, link to Url, and link to entry nodes are allowed"
             },
             {
-              "nodes": {
-              }
+              "nodes": {}
             }
           ],
           "disabled": false,
@@ -522,8 +486,7 @@
           "type": "Boolean",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -533,17 +496,14 @@
           "type": "Array",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "items": {
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "faq"
-                ]
+                "linkContentType": ["faq"]
               }
             ],
             "linkType": "Entry"
@@ -608,8 +568,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -621,12 +580,7 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": [
-                "bold",
-                "italic",
-                "underline",
-                "code"
-              ],
+              "enabledMarks": ["bold", "italic", "underline", "code"],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -646,8 +600,7 @@
               "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, link to Url, and link to entry nodes are allowed"
             },
             {
-              "nodes": {
-              }
+              "nodes": {}
             }
           ],
           "disabled": false,
@@ -973,8 +926,7 @@
   "entries": [
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -1042,8 +994,7 @@
         "content": {
           "en-US": {
             "nodeType": "document",
-            "data": {
-            },
+            "data": {},
             "content": [
               {
                 "nodeType": "paragraph",
@@ -1051,10 +1002,8 @@
                   {
                     "nodeType": "text",
                     "value": "He joined Apple in September 1992, and was promoted to Senior Vice President of Industrial Design in the late 1990s after the return of co-founder ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1062,10 +1011,8 @@
                       {
                         "nodeType": "text",
                         "value": "Steve Jobs",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1075,10 +1022,8 @@
                   {
                     "nodeType": "text",
                     "value": " to the company, and CDO in 2015. He left the company in July 2019. Working closely with Jobs during their tenure together at Apple, Ive played a vital role in the designs of the ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1086,10 +1031,8 @@
                       {
                         "nodeType": "text",
                         "value": "iMac",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1099,10 +1042,8 @@
                   {
                     "nodeType": "text",
                     "value": ", ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1110,10 +1051,8 @@
                       {
                         "nodeType": "text",
                         "value": "Power Mac G4 Cube",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1123,10 +1062,8 @@
                   {
                     "nodeType": "text",
                     "value": ", ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1134,10 +1071,8 @@
                       {
                         "nodeType": "text",
                         "value": "iPod",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1147,10 +1082,8 @@
                   {
                     "nodeType": "text",
                     "value": ", ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1158,10 +1091,8 @@
                       {
                         "nodeType": "text",
                         "value": "iPhone",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1171,10 +1102,8 @@
                   {
                     "nodeType": "text",
                     "value": ", ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1182,10 +1111,8 @@
                       {
                         "nodeType": "text",
                         "value": "iPad",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1195,10 +1122,8 @@
                   {
                     "nodeType": "text",
                     "value": ", ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1206,10 +1131,8 @@
                       {
                         "nodeType": "text",
                         "value": "MacBook",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1219,10 +1142,8 @@
                   {
                     "nodeType": "text",
                     "value": ", and parts of the user interface of Apple's mobile ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1230,10 +1151,8 @@
                       {
                         "nodeType": "text",
                         "value": "operating system",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1243,10 +1162,8 @@
                   {
                     "nodeType": "text",
                     "value": " ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1254,10 +1171,8 @@
                       {
                         "nodeType": "text",
                         "value": "iOS",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1267,10 +1182,8 @@
                   {
                     "nodeType": "text",
                     "value": ", among other products. He also helped design Apple's major architectural projects, such as ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1278,10 +1191,8 @@
                       {
                         "nodeType": "text",
                         "value": "Apple Park",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1291,10 +1202,8 @@
                   {
                     "nodeType": "text",
                     "value": " and ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1302,10 +1211,8 @@
                       {
                         "nodeType": "text",
                         "value": "Apple Stores",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1315,14 +1222,11 @@
                   {
                     "nodeType": "text",
                     "value": ".",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -1330,10 +1234,8 @@
                   {
                     "nodeType": "text",
                     "value": "Born in ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1341,10 +1243,8 @@
                       {
                         "nodeType": "text",
                         "value": "London",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1354,10 +1254,8 @@
                   {
                     "nodeType": "text",
                     "value": ", Ive lived there until his family moved to ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1365,10 +1263,8 @@
                       {
                         "nodeType": "text",
                         "value": "Stafford",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1378,10 +1274,8 @@
                   {
                     "nodeType": "text",
                     "value": " when he was 12. He studied design at ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1389,10 +1283,8 @@
                       {
                         "nodeType": "text",
                         "value": "Newcastle Polytechnic",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1402,10 +1294,8 @@
                   {
                     "nodeType": "text",
                     "value": ",",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1413,10 +1303,8 @@
                       {
                         "nodeType": "text",
                         "value": "",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1426,10 +1314,8 @@
                   {
                     "nodeType": "text",
                     "value": " and was later hired by the London-based start-up design firm Tangerine.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1437,10 +1323,8 @@
                       {
                         "nodeType": "text",
                         "value": "",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1450,10 +1334,8 @@
                   {
                     "nodeType": "text",
                     "value": " He began working at Apple in the early 1990s, designing the decade's ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1461,10 +1343,8 @@
                       {
                         "nodeType": "text",
                         "value": "PowerBooks",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1474,10 +1354,8 @@
                   {
                     "nodeType": "text",
                     "value": " and ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1485,10 +1363,8 @@
                       {
                         "nodeType": "text",
                         "value": "Macs",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1498,10 +1374,8 @@
                   {
                     "nodeType": "text",
                     "value": ", finally taking up US citizenship in 2012 to become a dual British-American national.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1509,10 +1383,8 @@
                       {
                         "nodeType": "text",
                         "value": "",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1522,10 +1394,8 @@
                   {
                     "nodeType": "text",
                     "value": " He was invited to join the ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1533,10 +1403,8 @@
                       {
                         "nodeType": "text",
                         "value": "Royal College of Art",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1546,14 +1414,11 @@
                   {
                     "nodeType": "text",
                     "value": " in May 2017 as its head-of-college, serving a fixed five-year term until May 2022.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -1561,10 +1426,8 @@
                   {
                     "nodeType": "text",
                     "value": "Ive has received ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1572,10 +1435,8 @@
                       {
                         "nodeType": "text",
                         "value": "a number of accolades and honours",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1585,10 +1446,8 @@
                   {
                     "nodeType": "text",
                     "value": " for his designs and patents. In the United Kingdom, he has been appointed a ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1596,10 +1455,8 @@
                       {
                         "nodeType": "text",
                         "value": "Royal Designer for Industry",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1609,10 +1466,8 @@
                   {
                     "nodeType": "text",
                     "value": " (RDI), an ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1620,10 +1475,8 @@
                       {
                         "nodeType": "text",
                         "value": "Honorary Fellow of the Royal Academy of Engineering",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1633,10 +1486,8 @@
                   {
                     "nodeType": "text",
                     "value": " (HonFREng), and a ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1644,10 +1495,8 @@
                       {
                         "nodeType": "text",
                         "value": "Knight Commander of the Order of the British Empire",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1657,10 +1506,8 @@
                   {
                     "nodeType": "text",
                     "value": " (KBE). In 2018, he was awarded the Professor Hawking Fellowship of the ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1668,10 +1515,8 @@
                       {
                         "nodeType": "text",
                         "value": "Cambridge Union Society",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1681,10 +1526,8 @@
                   {
                     "nodeType": "text",
                     "value": ".",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1692,10 +1535,8 @@
                       {
                         "nodeType": "text",
                         "value": "",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1705,10 +1546,8 @@
                   {
                     "nodeType": "text",
                     "value": " In a 2004 ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1716,10 +1555,8 @@
                       {
                         "nodeType": "text",
                         "value": "BBC",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1729,10 +1566,8 @@
                   {
                     "nodeType": "text",
                     "value": " poll of cultural writers, Ive was ranked the most influential person in ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1740,10 +1575,8 @@
                       {
                         "nodeType": "text",
                         "value": "British culture",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1753,10 +1586,8 @@
                   {
                     "nodeType": "text",
                     "value": ".",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1764,10 +1595,8 @@
                       {
                         "nodeType": "text",
                         "value": "",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1777,14 +1606,11 @@
                   {
                     "nodeType": "text",
                     "value": " His designs have been described as integral to the successes of Apple, which has gone on to become the world's largest information technology company by revenue and the largest company in the world by market capitalization.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -1792,10 +1618,8 @@
                   {
                     "nodeType": "text",
                     "value": "On 27 June 2019, in an exclusive interview with the ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1808,8 +1632,7 @@
                             "type": "italic"
                           }
                         ],
-                        "data": {
-                        }
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1819,10 +1642,8 @@
                   {
                     "nodeType": "text",
                     "value": ", Ive announced he would leave Apple after 27 years to start his own design firm, LoveFrom, together with industrial designer ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1830,10 +1651,8 @@
                       {
                         "nodeType": "text",
                         "value": "Marc Newson",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -1843,14 +1662,11 @@
                   {
                     "nodeType": "text",
                     "value": ". He has been recruited by the wealthy Agnelli family to work on Ferrari vehicles, starting in 2021.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -1858,14 +1674,11 @@
                   {
                     "nodeType": "text",
                     "value": "\n\n",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               }
             ]
           }
@@ -1874,8 +1687,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -1943,8 +1755,7 @@
         "content": {
           "en-US": {
             "nodeType": "document",
-            "data": {
-            },
+            "data": {},
             "content": [
               {
                 "nodeType": "paragraph",
@@ -1957,20 +1768,16 @@
                         "type": "bold"
                       }
                     ],
-                    "data": {
-                    }
+                    "data": {}
                   },
                   {
                     "nodeType": "text",
                     "value": " is an American business executive and industrial engineer. Cook is the chief executive officer of Apple Inc., and previously served as the company's chief operating officer under its cofounder Steve Jobs.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -1978,14 +1785,11 @@
                   {
                     "nodeType": "text",
                     "value": "Cook joined Apple in March 1998 as a senior vice president for worldwide operations, and then served as the executive vice president for worldwide sales and operations. He was made the chief executive on August 24, 2011, prior to Jobs' death in October of that year.\n During his tenure as the chief executive, he has advocated for the \npolitical reformation of international and domestic surveillance, cybersecurity, corporate taxation, American manufacturing, and environmental preservation.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -1993,14 +1797,11 @@
                   {
                     "nodeType": "text",
                     "value": "In 2014, Cook became the first chief executive of a Fortune 500 company to publicly come out as gay. Cook also serves on the boards of directors of Nike, Inc., the National Football Foundation, and is a trustee of Duke University. In March 2015, he said he planned to donate his entire stock fortune to charity.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -2008,14 +1809,11 @@
                   {
                     "nodeType": "text",
                     "value": "Cook was born in Mobile, Alabama, United States. He was baptized in a Baptist church and grew up in nearby Robertsdale. His father, Donald, was a shipyard worker, and his mother, Geraldine, worked at a pharmacy.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -2023,14 +1821,11 @@
                   {
                     "nodeType": "text",
                     "value": "Cook graduated from Robertsdale High School. He earned a Bachelor of Science (B.S.) in industrial engineering from Auburn University in 1982, and his Master of Business Administration (MBA) from Duke University's Fuqua School of Business in 1988.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               }
             ]
           }
@@ -2039,8 +1834,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -2118,8 +1912,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -2187,8 +1980,7 @@
         "content": {
           "en-US": {
             "nodeType": "document",
-            "data": {
-            },
+            "data": {},
             "content": [
               {
                 "nodeType": "paragraph",
@@ -2201,16 +1993,13 @@
                         "type": "bold"
                       }
                     ],
-                    "data": {
-                    }
+                    "data": {}
                   },
                   {
                     "nodeType": "text",
                     "value": " was an American business magnate, industrial designer, investor, and media proprietor. He was the chairman, chief executive officer (CEO), and co-founder of",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -2218,10 +2007,8 @@
                       {
                         "nodeType": "text",
                         "value": " Apple Inc.",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -2231,10 +2018,8 @@
                   {
                     "nodeType": "text",
                     "value": ", the chairman and majority shareholder of ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "text",
@@ -2244,20 +2029,16 @@
                         "type": "italic"
                       }
                     ],
-                    "data": {
-                    }
+                    "data": {}
                   },
                   {
                     "nodeType": "text",
                     "value": ", a member of The Walt Disney Company's board of directors following its acquisition of Pixar, and the founder, chairman, and CEO of NeXT. Jobs is widely recognized as a pioneer of the personal computer revolution of the 1970s and 1980s, along with Apple co-founder Steve Wozniak.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "blockquote",
@@ -2268,18 +2049,14 @@
                       {
                         "nodeType": "text",
                         "value": "taking LSD was \"one of the two or three most important things\" he had done in his life",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
-                    "data": {
-                    }
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -2287,14 +2064,11 @@
                   {
                     "nodeType": "text",
                     "value": "Jobs was born in San Francisco, California, and put up for adoption. He was raised in the San Francisco Bay Area. He attended Reed College in 1972 before dropping out that same year, and traveled through India in 1974 seeking enlightenment and studying Zen Buddhism. His declassified FBI report states that he used marijuana and LSD while he was in college, and once told a reporter that taking LSD was \"one of the two or three most important things\" he had done in his life.\n",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -2302,10 +2076,8 @@
                   {
                     "nodeType": "text",
                     "value": "Jobs and Wozniak co-founded Apple in 1976 to sell Wozniak's Apple I personal computer. Together the duo gained fame and wealth a year later with the Apple II, one of the first highly successful mass-produced microcomputers. Jobs saw the commercial potential of the Xerox Alto in 1979, which was mouse-driven and had a graphical user interface (GUI). This led to the development of the unsuccessful Apple Lisa in 1983, followed by the breakthrough Macintosh in 1984, the first mass-produced computer with a GUI. The Macintosh introduced the desktop publishing industry in 1985 with the addition of the Apple LaserWriter, the first laser printer to feature vector graphics. Jobs was forced out of Apple in 1985 after a long power struggle with the company's board and its then-CEO John Sculley. That same year, Jobs took a few of Apple's members with him to found NeXT, a computer platform development company that specialized in computers for higher-education and business markets. In addition, he helped to develop the visual effects industry when he funded the computer graphics division of George Lucas's Lucasfilm in 1986. The new company was Pixar, which produced the first 3D computer animated film ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "text",
@@ -2315,20 +2087,16 @@
                         "type": "italic"
                       }
                     ],
-                    "data": {
-                    }
+                    "data": {}
                   },
                   {
                     "nodeType": "text",
                     "value": " (1995).",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               }
             ]
           }
@@ -2337,8 +2105,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -2398,7 +2165,7 @@
           "en-US": "Toolkit"
         },
         "introduction": {
-          "en-US": "Some of the basic content styles you will find with Barcadia"
+          "en-US": "Some of the basic content styles you will find with GeekLand"
         },
         "url": {
           "en-US": "toolkit"
@@ -2406,8 +2173,7 @@
         "content": {
           "en-US": {
             "nodeType": "document",
-            "data": {
-            },
+            "data": {},
             "content": [
               {
                 "nodeType": "heading-2",
@@ -2415,14 +2181,11 @@
                   {
                     "nodeType": "text",
                     "value": "Heading 1",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "heading-2",
@@ -2430,14 +2193,11 @@
                   {
                     "nodeType": "text",
                     "value": "Heading 2",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "heading-3",
@@ -2445,14 +2205,11 @@
                   {
                     "nodeType": "text",
                     "value": "Heading 3",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "heading-4",
@@ -2460,14 +2217,11 @@
                   {
                     "nodeType": "text",
                     "value": "Heading 4",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "heading-5",
@@ -2475,14 +2229,11 @@
                   {
                     "nodeType": "text",
                     "value": "Heading 5",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "heading-6",
@@ -2490,14 +2241,11 @@
                   {
                     "nodeType": "text",
                     "value": "Heading 6",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -2505,14 +2253,11 @@
                   {
                     "nodeType": "text",
                     "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim neque eros, et dictum enim facilisis eu. Duis vestibulum ante nulla, a dignissim ante mattis sit amet. Mauris maximus tincidunt tellus at pellentesque. Suspendisse a sapien dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent tempor tincidunt lorem, quis pharetra lacus laoreet at. Pellentesque mauris lorem, mollis vitae venenatis eget, eleifend sit amet orci.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -2525,16 +2270,13 @@
                         "type": "bold"
                       }
                     ],
-                    "data": {
-                    }
+                    "data": {}
                   },
                   {
                     "nodeType": "text",
                     "value": " bibendum, hendrerit mi vitae, luctus turpis. Fusce lorem purus, mattis vitae ornare id, elementum non libero. Vivamus nec nulla nec leo aliquam venenatis. Suspendisse potenti. Suspendisse imperdiet nisl non nisi mattis blandit. ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "text",
@@ -2544,16 +2286,13 @@
                         "type": "italic"
                       }
                     ],
-                    "data": {
-                    }
+                    "data": {}
                   },
                   {
                     "nodeType": "text",
                     "value": " tristique nulla, sit amet consectetur quam aliquet vitae. Praesent egestas molestie nisi nec ornare. Quisque venenatis felis quis magna cursus, nec vehicula augue malesuada. Nullam mauris nunc, varius nec purus non, ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "text",
@@ -2563,16 +2302,13 @@
                         "type": "underline"
                       }
                     ],
-                    "data": {
-                    }
+                    "data": {}
                   },
                   {
                     "nodeType": "text",
                     "value": ". Suspendisse sed dui tristique, pretium augue in, tincidunt justo. Sed varius nisi vel neque tempor, non posuere libero tristique. Nullam placerat, neque at auctor malesuada, velit orci laoreet tortor, eu molestie dui tortor vel erat. ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
@@ -2580,10 +2316,8 @@
                       {
                         "nodeType": "text",
                         "value": "Praesent scelerisque",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
                     "data": {
@@ -2593,14 +2327,11 @@
                   {
                     "nodeType": "text",
                     "value": ", est nec viverra convallis, justo sem faucibus nisi, quis sollicitudin velit ligula ultricies nulla. Praesent dignissim consequat odio, ut commodo lorem malesuada vitae.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "blockquote",
@@ -2611,18 +2342,14 @@
                       {
                         "nodeType": "text",
                         "value": "Praesent egestas molestie nisi nec ornare. Quisque venenatis felis quis magna cursus, nec vehicula augue malesuada.",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "marks": [],
+                        "data": {}
                       }
                     ],
-                    "data": {
-                    }
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -2630,21 +2357,16 @@
                   {
                     "nodeType": "text",
                     "value": "Donec leo erat, rutrum in purus eu, vehicula vestibulum leo. Praesent sagittis cursus velit, ut porttitor eros fringilla vitae. Praesent eget est libero. Pellentesque viverra aliquet nibh, ac vestibulum quam tempor quis. ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "hr",
-                "content": [
-                ],
-                "data": {
-                }
+                "content": [],
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -2652,14 +2374,11 @@
                   {
                     "nodeType": "text",
                     "value": "Donec mollis felis et tempus posuere. Aliquam nec nisl venenatis, commodo ligula eu, egestas augue. Pellentesque at tortor sodales, iaculis magna egestas, sollicitudin lacus. Duis et venenatis orci. Curabitur quis tellus maximus sapien hendrerit tempor. Praesent eu suscipit erat. Duis sed viverra arcu, eget cursus ipsum. Suspendisse et quam nibh. Praesent risus elit, blandit lacinia elementum quis, volutpat interdum mi. Integer pretium pulvinar interdum.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "unordered-list",
@@ -2673,18 +2392,14 @@
                           {
                             "nodeType": "text",
                             "value": "Praesent dignissim consequat odio",
-                            "marks": [
-                            ],
-                            "data": {
-                            }
+                            "marks": [],
+                            "data": {}
                           }
                         ],
-                        "data": {
-                        }
+                        "data": {}
                       }
                     ],
-                    "data": {
-                    }
+                    "data": {}
                   },
                   {
                     "nodeType": "list-item",
@@ -2695,18 +2410,14 @@
                           {
                             "nodeType": "text",
                             "value": "Praesent sagittis",
-                            "marks": [
-                            ],
-                            "data": {
-                            }
+                            "marks": [],
+                            "data": {}
                           }
                         ],
-                        "data": {
-                        }
+                        "data": {}
                       }
                     ],
-                    "data": {
-                    }
+                    "data": {}
                   },
                   {
                     "nodeType": "list-item",
@@ -2717,22 +2428,17 @@
                           {
                             "nodeType": "text",
                             "value": "Sed varius nisi",
-                            "marks": [
-                            ],
-                            "data": {
-                            }
+                            "marks": [],
+                            "data": {}
                           }
                         ],
-                        "data": {
-                        }
+                        "data": {}
                       }
                     ],
-                    "data": {
-                    }
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "ordered-list",
@@ -2746,18 +2452,14 @@
                           {
                             "nodeType": "text",
                             "value": "Aliquam nec nisl venenatis",
-                            "marks": [
-                            ],
-                            "data": {
-                            }
+                            "marks": [],
+                            "data": {}
                           }
                         ],
-                        "data": {
-                        }
+                        "data": {}
                       }
                     ],
-                    "data": {
-                    }
+                    "data": {}
                   },
                   {
                     "nodeType": "list-item",
@@ -2768,18 +2470,14 @@
                           {
                             "nodeType": "text",
                             "value": "Suspendisse et quam",
-                            "marks": [
-                            ],
-                            "data": {
-                            }
+                            "marks": [],
+                            "data": {}
                           }
                         ],
-                        "data": {
-                        }
+                        "data": {}
                       }
                     ],
-                    "data": {
-                    }
+                    "data": {}
                   },
                   {
                     "nodeType": "list-item",
@@ -2790,22 +2488,17 @@
                           {
                             "nodeType": "text",
                             "value": "Sed varius nisi vel",
-                            "marks": [
-                            ],
-                            "data": {
-                            }
+                            "marks": [],
+                            "data": {}
                           }
                         ],
-                        "data": {
-                        }
+                        "data": {}
                       }
                     ],
-                    "data": {
-                    }
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -2813,14 +2506,11 @@
                   {
                     "nodeType": "text",
                     "value": "\n\n",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               }
             ]
           }
@@ -2829,8 +2519,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -2912,18 +2601,14 @@
         },
         "description": {
           "en-US": {
-            "data": {
-            },
+            "data": {},
             "content": [
               {
-                "data": {
-                },
+                "data": {},
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "Apple announced AirPods Pro on October 28, 2019, and released them two days later on October 30, 2019.",
                     "nodeType": "text"
                   },
@@ -2933,10 +2618,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "",
                         "nodeType": "text"
                       }
@@ -2944,10 +2627,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": " They include features of standard ",
                     "nodeType": "text"
                   },
@@ -2957,10 +2638,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "AirPods",
                         "nodeType": "text"
                       }
@@ -2968,10 +2647,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": ", such as a microphone that filters out ",
                     "nodeType": "text"
                   },
@@ -2981,10 +2658,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "background noise",
                         "nodeType": "text"
                       }
@@ -2992,10 +2667,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": ", ",
                     "nodeType": "text"
                   },
@@ -3005,10 +2678,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "accelerometers",
                         "nodeType": "text"
                       }
@@ -3016,10 +2687,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": " and optical sensors that can detect presses on the stem and in-ear placement, and automatic pausing when they are taken out of the ears. Control by tapping is replaced by pressing a force sensor on the stems.",
                     "nodeType": "text"
                   },
@@ -3029,10 +2698,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "",
                         "nodeType": "text"
                       }
@@ -3040,10 +2707,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": " They are rated ",
                     "nodeType": "text"
                   },
@@ -3053,10 +2718,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "IPX4",
                         "nodeType": "text"
                       }
@@ -3064,10 +2727,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": " for water resistance.",
                     "nodeType": "text"
                   },
@@ -3077,10 +2738,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "",
                         "nodeType": "text"
                       }
@@ -3088,10 +2747,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "",
                     "nodeType": "text"
                   }
@@ -3099,14 +2756,11 @@
                 "nodeType": "paragraph"
               },
               {
-                "data": {
-                },
+                "data": {},
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "The AirPods Pro use the ",
                     "nodeType": "text"
                   },
@@ -3116,10 +2770,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "H1 chip",
                         "nodeType": "text"
                       }
@@ -3127,10 +2779,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": " also found in the second and third generation AirPods, that supports hands-free \"Hey ",
                     "nodeType": "text"
                   },
@@ -3140,10 +2790,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "Siri",
                         "nodeType": "text"
                       }
@@ -3151,10 +2799,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "\". They have ",
                     "nodeType": "text"
                   },
@@ -3164,10 +2810,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "active noise cancellation",
                         "nodeType": "text"
                       }
@@ -3175,10 +2819,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": ", accomplished by microphones detecting outside sound and speakers producing precisely opposite \"anti-noise\". Active noise cancellation can be turned off or switched to \"transparency mode\" that helps users hear surroundings. Noise cancellation modes can also be switched in iOS or by pinching the stems of the AirPods using the force sensor.",
                     "nodeType": "text"
                   },
@@ -3188,10 +2830,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "",
                         "nodeType": "text"
                       }
@@ -3199,10 +2839,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "",
                     "nodeType": "text"
                   }
@@ -3210,14 +2848,11 @@
                 "nodeType": "paragraph"
               },
               {
-                "data": {
-                },
+                "data": {},
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "The H1 chip is embedded in a unique ",
                     "nodeType": "text"
                   },
@@ -3227,10 +2862,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "system in a package",
                         "nodeType": "text"
                       }
@@ -3238,10 +2871,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": " (SiP) module enclosing several other components, such as the ",
                     "nodeType": "text"
                   },
@@ -3251,10 +2882,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "audio processor",
                         "nodeType": "text"
                       }
@@ -3262,10 +2891,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": " and ",
                     "nodeType": "text"
                   },
@@ -3275,10 +2902,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "accelerometers",
                         "nodeType": "text"
                       }
@@ -3286,10 +2911,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": ".",
                     "nodeType": "text"
                   },
@@ -3299,10 +2922,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "",
                         "nodeType": "text"
                       }
@@ -3310,10 +2931,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "",
                     "nodeType": "text"
                   }
@@ -3321,14 +2940,11 @@
                 "nodeType": "paragraph"
               },
               {
-                "data": {
-                },
+                "data": {},
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "Battery life is rated to be equal to the second-generation AirPods at five hours, but noise cancellation or transparency mode reduce it to 4.5 hours due to the extra processing.",
                     "nodeType": "text"
                   },
@@ -3338,10 +2954,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "",
                         "nodeType": "text"
                       }
@@ -3349,10 +2963,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": " The charging case advertises the same 24 hours of total listening time as the standard AirPods case. It also features ",
                     "nodeType": "text"
                   },
@@ -3362,10 +2974,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "Qi standard",
                         "nodeType": "text"
                       }
@@ -3373,10 +2983,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": " wireless charging compatibility.",
                     "nodeType": "text"
                   },
@@ -3386,10 +2994,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "",
                         "nodeType": "text"
                       }
@@ -3397,10 +3003,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": " In October 2021, Apple updated the bundled charging case with ",
                     "nodeType": "text"
                   },
@@ -3410,10 +3014,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "MagSafe",
                         "nodeType": "text"
                       }
@@ -3421,10 +3023,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": ".",
                     "nodeType": "text"
                   },
@@ -3434,10 +3034,8 @@
                     },
                     "content": [
                       {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
+                        "data": {},
+                        "marks": [],
                         "value": "",
                         "nodeType": "text"
                       }
@@ -3445,10 +3043,8 @@
                     "nodeType": "hyperlink"
                   },
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": " Like AirPods, AirPods Pro have received criticism for their battery life.",
                     "nodeType": "text"
                   }
@@ -3491,8 +3087,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -3574,18 +3169,14 @@
         },
         "description": {
           "en-US": {
-            "data": {
-            },
+            "data": {},
             "content": [
               {
-                "data": {
-                },
+                "data": {},
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "The XR has a similar design to the iPhone X and iPhone XS. However, it has slightly larger bezels, an aluminum frame, and is available in a wide variety of colors. Similar to other X-branded iPhones, all models come with a black front. The XR has an IP67 rating for dust and water resistance, which means it can be immersed in 1-meter deep water for up to 30 minutes.\r",
                     "nodeType": "text"
                   }
@@ -3593,14 +3184,11 @@
                 "nodeType": "paragraph"
               },
               {
-                "data": {
-                },
+                "data": {},
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "The XR has similar hardware to the XS, but with a few features removed to reduce the price. Instead of 3D Touch, the XR comes with Haptic Touch where the user long presses until they feel a vibration from the Taptic Engine. The XR also has an LCD display known as \"Liquid Retina\" instead of the OLED screen used on the X, XS, and XS Max. The display on the XR has a resolution of 1792 × 828 pixels and a pixel density of 326 ppi, compared with 458 ppi on other X-branded iPhones. The screen-to-body ratio of the XR is 79.3%, much higher than the 67.5% of the iPhone 8 Plus but still lower than most other phones in its price category. Unlike most other phones in the X-series, the XR ships with a single camera on the rear on the phone, featuring exactly the same main camera sensor as on the XS and XS Max, utilizing a 1/2.55\" sensor size and 1.4μm pixel size. Unlike the XS, it does not have optical zoom, because of the single camera. DxOMark gave the camera on the iPhone XR a rating of 101, giving the title “Top-ranked single-lens phone.”\r",
                     "nodeType": "text"
                   }
@@ -3608,14 +3196,11 @@
                 "nodeType": "paragraph"
               },
               {
-                "data": {
-                },
+                "data": {},
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "Despite the rear single-camera setup, a modified version of Portrait Mode is included. It works unaltered while using the TrueDepth front camera, but with the rear camera it attempts to calculate depth of field using a combination of the focus pixels on the image sensor and AI, resulting in more limitations including lower resolution depth data and subjects not being close enough due to the wide-angle lens being used instead of the missing telephoto lens. Just like the iPhone XS and XS Max, the iPhone XR also offers an adjustable depth of field through software, allowing the user to adjust the background bokeh effect after taking a photo. ",
                     "nodeType": "text"
                   }
@@ -3690,8 +3275,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -3773,18 +3357,14 @@
         },
         "description": {
           "en-US": {
-            "data": {
-            },
+            "data": {},
             "content": [
               {
-                "data": {
-                },
+                "data": {},
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "The MacBook Air is a line of laptop computers developed and manufactured by Apple Inc. It consists of a full-size keyboard, a machined aluminum case, and a thin light structure. The Air was originally positioned as a premium ultraportable positioned above the previous MacBook line. Since then, the Air has become Apple's entry-level laptop due to the original MacBook's discontinuation in 2011, as well as lowered prices on subsequent iterations. In the current product line, the MacBook Air sits below the performance range MacBook Pro.\r",
                     "nodeType": "text"
                   }
@@ -3792,14 +3372,11 @@
                 "nodeType": "paragraph"
               },
               {
-                "data": {
-                },
+                "data": {},
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "The MacBook Air was introduced in January 2008 with a 13.3-inch screen, and was promoted as the world's thinnest notebook. Apple released a second generation MacBook Air in October 2010, with a redesigned tapered chassis, standard solid-state storage, and added a smaller 11.6-inch version. Later revisions added Intel Core i5 or i7 processors and Thunderbolt. The third generation was released in October 2018, with reduced dimensions, a Retina display, and uses combination USB-C/Thunderbolt 3 ports for data and power. ",
                     "nodeType": "text"
                   }
@@ -3871,8 +3448,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -3954,18 +3530,14 @@
         },
         "description": {
           "en-US": {
-            "data": {
-            },
+            "data": {},
             "content": [
               {
-                "data": {
-                },
+                "data": {},
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "Apple co-founder Steve Jobs said in a 1983 speech that the company's strategy was simple: \"What we want to do is we want to put an incredibly great computer in a book that you can carry around with you and learn how to use in 20 minutes... and we really want to do it with a radio link in it so you don't have to hook up to anything and you're in communication with all of these larger databases and other computers.\"\r",
                     "nodeType": "text"
                   }
@@ -3973,14 +3545,11 @@
                 "nodeType": "paragraph"
               },
               {
-                "data": {
-                },
+                "data": {},
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "Apple's first tablet computer was the Newton MessagePad 100, introduced in 1993, powered by an ARM6 processor core developed by ARM, a 1990 spinout of Acorn Computers in which Apple invested. Apple also developed a prototype PowerBook Duo based tablet, the PenLite, but decided not to sell it in order to avoid hurting MessagePad sales. Apple released several more Newton-based PDAs; the final one, the MessagePad 2100, was discontinued in 1998.\r",
                     "nodeType": "text"
                   }
@@ -3988,14 +3557,11 @@
                 "nodeType": "paragraph"
               },
               {
-                "data": {
-                },
+                "data": {},
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "Apple re-entered the mobile-computing markets in 2007 with the iPhone. Smaller than the iPad, but featuring a camera and mobile phone, it pioneered the multi-touch finger-sensitive touchscreen interface of Apple's iOS mobile operating system. By late 2009, the iPad's release had been rumoured for several years. Such speculation mostly talked about \"Apple's tablet\"; specific names included iTablet and iSlate. The iPad was announced on January 27, 2010, by Steve Jobs at an Apple press conference at the Yerba Buena Center for the Arts in San Francisco. ",
                     "nodeType": "text"
                   }
@@ -4070,8 +3636,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -4153,18 +3718,14 @@
         },
         "description": {
           "en-US": {
-            "data": {
-            },
+            "data": {},
             "content": [
               {
-                "data": {
-                },
+                "data": {},
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "The announcement of iMac in 1998 was a source of controversy and anticipation among commentators, Mac fans, and detractors. Opinions were divided over Apple's drastic changes to the Macintosh hardware. At the time, Apple had suffered a series of setbacks as consumers increasingly opted for Wintel (Windows PCs) machines instead of Apple's Performa models. Many in the industry thought that \"beleaguered\" Apple would soon be forced to start selling computers with a custom interface built on top of one or more potential operating system bases, such as Taligent, Solaris, or Windows 98.",
                     "nodeType": "text"
                   }
@@ -4172,14 +3733,11 @@
                 "nodeType": "paragraph"
               },
               {
-                "data": {
-                },
+                "data": {},
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "The designer behind iMac's case was Jonathan Ive.\r",
                     "nodeType": "text"
                   }
@@ -4187,14 +3745,11 @@
                 "nodeType": "paragraph"
               },
               {
-                "data": {
-                },
+                "data": {},
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "data": {},
+                    "marks": [],
                     "value": "Ken Segall was an employee at an L.A. ad agency handling Apple's account who came up with the name \"iMac\" and pitched it to Steve Jobs. After Jobs' death, Segall claimed Jobs preferred \"MacMan\" for the name of the computer, but after Segall pitched \"iMac\" to him twice, the name was accepted. Segall says that the \"i\" stands for \"Internet\", but also represents the product as a personal and revolutionary device ('i' for \"individuality\" and \"innovation\"). Apple later adopted the 'i' prefix across its consumer hardware and software lines, such as iPod, iBook (later MacBook), iPhone, iPad and various pieces of software such as the iLife suite and iWork and the company's media player/store, iTunes. ",
                     "nodeType": "text"
                   }
@@ -4266,8 +3821,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -4348,8 +3902,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -4411,8 +3964,7 @@
         "answer": {
           "en-US": {
             "nodeType": "document",
-            "data": {
-            },
+            "data": {},
             "content": [
               {
                 "nodeType": "paragraph",
@@ -4420,14 +3972,11 @@
                   {
                     "nodeType": "text",
                     "value": "Aliquam venenatis odio ut euismod accumsan. Ut vitae elit sodales felis convallis dignissim a quis elit. Mauris ut malesuada lacus. Nulla enim nulla, elementum id nunc volutpat, gravida egestas nibh. Cras sed nulla vitae turpis bibendum pretium. Donec euismod iaculis ex, id iaculis mauris imperdiet in. Maecenas nisi lacus, congue eget enim ut, accumsan ultricies urna. Donec eget erat bibendum, gravida nibh a, ultricies neque. Aliquam laoreet suscipit lacus, a maximus nunc venenatis sit amet. Aliquam ac volutpat arcu, eu finibus diam. Morbi a porta massa.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -4435,14 +3984,11 @@
                   {
                     "nodeType": "text",
                     "value": "Vivamus odio urna, consequat a laoreet vel, vehicula non metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce eu enim quis lorem convallis euismod volutpat id enim. Maecenas ornare, odio ac tempus pulvinar, nisl purus lobortis neque, eget ultrices velit mauris id ligula. In auctor massa ut massa mollis faucibus. Proin luctus dictum ipsum, id ultricies tellus mollis in. Nulla facilisi. Nam sit amet felis nec lorem tristique facilisis at feugiat eros. Integer eu velit turpis. Pellentesque sed lorem risus. Nam in viverra est. Aenean vehicula sed massa in lacinia. Aliquam eleifend imperdiet erat a imperdiet. Ut sed leo at orci lobortis venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               }
             ]
           }
@@ -4451,8 +3997,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -4514,8 +4059,7 @@
         "answer": {
           "en-US": {
             "nodeType": "document",
-            "data": {
-            },
+            "data": {},
             "content": [
               {
                 "nodeType": "paragraph",
@@ -4523,14 +4067,11 @@
                   {
                     "nodeType": "text",
                     "value": "Aliquam venenatis odio ut euismod accumsan. Ut vitae elit sodales felis convallis dignissim a quis elit. Mauris ut malesuada lacus. Nulla enim nulla, elementum id nunc volutpat, gravida egestas nibh. Cras sed nulla vitae turpis bibendum pretium. Donec euismod iaculis ex, id iaculis mauris imperdiet in. Maecenas nisi lacus, congue eget enim ut, accumsan ultricies urna. Donec eget erat bibendum, gravida nibh a, ultricies neque. Aliquam laoreet suscipit lacus, a maximus nunc venenatis sit amet. Aliquam ac volutpat arcu, eu finibus diam. Morbi a porta massa.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -4538,14 +4079,11 @@
                   {
                     "nodeType": "text",
                     "value": "Vivamus odio urna, consequat a laoreet vel, vehicula non metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce eu enim quis lorem convallis euismod volutpat id enim. Maecenas ornare, odio ac tempus pulvinar, nisl purus lobortis neque, eget ultrices velit mauris id ligula. In auctor massa ut massa mollis faucibus. Proin luctus dictum ipsum, id ultricies tellus mollis in. Nulla facilisi. Nam sit amet felis nec lorem tristique facilisis at feugiat eros. Integer eu velit turpis. Pellentesque sed lorem risus. Nam in viverra est. Aenean vehicula sed massa in lacinia. Aliquam eleifend imperdiet erat a imperdiet. Ut sed leo at orci lobortis venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               }
             ]
           }
@@ -4554,8 +4092,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -4632,8 +4169,7 @@
         "mainContent": {
           "en-US": {
             "nodeType": "document",
-            "data": {
-            },
+            "data": {},
             "content": [
               {
                 "nodeType": "paragraph",
@@ -4641,14 +4177,11 @@
                   {
                     "nodeType": "text",
                     "value": "Vivamus malesuada nec felis et imperdiet. Cras bibendum vulputate justo et consectetur. Sed bibendum est vel hendrerit scelerisque. Proin a vehicula libero. Nunc luctus sodales dolor in tincidunt. Maecenas et neque dui. Morbi semper molestie sapien, eget varius mauris viverra ut. Suspendisse at diam eget ex maximus interdum nec eget massa. Sed eget metus vestibulum libero dapibus venenatis. Sed justo ipsum, elementum sed maximus vitae, vulputate eleifend est. Nullam diam ante, pharetra non vehicula ac, elementum vel massa. Nullam ultrices lacinia pretium. Pellentesque libero massa, congue ac pretium feugiat, congue at neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed aliquet in ex eget tincidunt.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -4656,14 +4189,11 @@
                   {
                     "nodeType": "text",
                     "value": "Vestibulum bibendum lorem velit, et aliquam metus scelerisque in. Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas. Vivamus a orci eget ligula venenatis sodales. Integer congue velit tortor, ac dapibus mauris interdum ut. Vivamus ipsum nulla, fermentum eu scelerisque eget, rhoncus euismod diam. Duis malesuada porta viverra. Sed vitae nisl dolor. Ut in imperdiet nisl. Fusce eu lectus et arcu venenatis suscipit. Proin at risus sapien. Donec interdum urna eget leo semper, quis ultrices augue congue. Duis scelerisque lacus nisi, vel elementum lorem sollicitudin non. Vestibulum sed ligula vel risus varius rutrum.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -4671,14 +4201,11 @@
                   {
                     "nodeType": "text",
                     "value": "Suspendisse malesuada mi quis massa imperdiet, at pharetra felis malesuada. In euismod nulla quam, bibendum blandit dui aliquet vitae. Vivamus dignissim ante a velit congue venenatis. Cras scelerisque, tellus sed gravida tincidunt, velit tellus blandit justo, nec viverra augue erat in erat. Maecenas iaculis sed purus non fringilla. Nulla odio justo, interdum at faucibus a, faucibus eget ipsum. Curabitur blandit, elit nec vulputate rhoncus, justo dolor bibendum arcu, vel accumsan nibh metus quis elit. In feugiat ex dolor, ut viverra lectus mollis nec.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
@@ -4686,14 +4213,11 @@
                   {
                     "nodeType": "text",
                     "value": "\n\n",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               }
             ]
           }
@@ -4705,8 +4229,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -4768,8 +4291,7 @@
         "answer": {
           "en-US": {
             "nodeType": "document",
-            "data": {
-            },
+            "data": {},
             "content": [
               {
                 "nodeType": "paragraph",
@@ -4777,14 +4299,11 @@
                   {
                     "nodeType": "text",
                     "value": "Suspendisse sit amet rhoncus ante. Aliquam dapibus nec ex ac vulputate. Nam fringilla quam id ex porta, eget porta nisi commodo. Cras hendrerit, lorem vitae pulvinar convallis, mi ex dignissim augue, non imperdiet tellus tortor vitae velit. In scelerisque fermentum neque vitae bibendum. Proin tempus mauris ac tellus varius eleifend sed eu justo. Sed et nulla euismod, lobortis arcu sit amet, condimentum dui. Praesent condimentum aliquam magna vel pretium. Donec magna nulla, blandit ac vestibulum ac, varius dapibus ante. Cras interdum felis orci, id facilisis nulla molestie in. Cras dignissim urna ut enim mollis rhoncus. Proin tincidunt consequat magna eu gravida. Vestibulum nec purus laoreet, venenatis mauris non, consectetur turpis. Cras molestie, lectus vitae maximus pharetra, lectus elit tincidunt dolor, sit amet interdum lacus diam cursus neque. Fusce placerat mauris gravida lacus gravida, nec mollis velit euismod. Duis semper ultrices sem sit amet sagittis.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "marks": [],
+                    "data": {}
                   }
                 ],
-                "data": {
-                }
+                "data": {}
               }
             ]
           }
@@ -4795,8 +4314,7 @@
   "assets": [
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -4866,8 +4384,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -4937,8 +4454,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -5008,8 +4524,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -5079,8 +4594,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -5150,8 +4664,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -5221,8 +4734,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -5292,8 +4804,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -5363,8 +4874,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -5434,8 +4944,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -5505,8 +5014,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -5576,8 +5084,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -5650,8 +5157,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -5724,8 +5230,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -5798,8 +5303,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -5872,8 +5376,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -5946,8 +5449,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -6020,8 +5522,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -6094,8 +5595,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -6168,8 +5668,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -6242,8 +5741,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -6316,8 +5814,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -6390,8 +5887,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -6464,8 +5960,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -6589,11 +6084,7 @@
       "name": "Gatsby Builds",
       "url": "https://webhook.gatsbyjs.com/hooks/data_source/publish/1492cbbf-0023-4587-a443-f0ceafebda67",
       "httpBasicUsername": null,
-      "topics": [
-        "ContentType.publish",
-        "Entry.publish",
-        "Asset.publish"
-      ],
+      "topics": ["ContentType.publish", "Entry.publish", "Asset.publish"],
       "filters": null,
       "transformation": null,
       "active": true,
@@ -6625,10 +6116,8 @@
         },
         "updatedAt": "2020-03-12T09:05:48Z"
       },
-      "headers": [
-      ]
+      "headers": []
     }
   ],
-  "roles": [
-  ]
+  "roles": []
 }
