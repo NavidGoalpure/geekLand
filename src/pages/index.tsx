@@ -5,8 +5,9 @@ import BannerModule from "../components/BannerModule/BannerModule"
 import BasicTextModule from "../components/BasicTextModule/BasicTextModule"
 import PerksModule from "../components/PerksModule/PerksModule"
 import Perk from "../components/PerksModule/Perk"
-import Features from "../components/Features/Features"
 import LatestPosts from "../components/Post/LatestPosts"
+import FeaturesCourses from "../components/Courses/Features"
+import Features from "../components/Features/Features"
 
 const Index = () => {
   return (
@@ -33,6 +34,11 @@ const Index = () => {
           title="Featured Products from GeekLand."
           introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
         />
+        <FeaturesCourses
+          title="Featured Courses in GeekLand."
+          introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
+        />
+
         <LatestPosts
           title="The Latest from GeekLand"
           introduction="Cras scelerisque, tellus sed gravida tincidunt, velit tellus blandit justo, nec viverra augue erat in erat. Maecenas iaculis sed purus non fringilla."
