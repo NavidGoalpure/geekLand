@@ -1,20 +1,19 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import Button from "../Button/Button"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { FeaturedCourseStyles } from "./FeaturesStyles"
 
-const FeaturedCourse = ({ feature }) => {
-  const { gatsbyPath, headerImage, title, introduction } = feature
-  const image = getImage(headerImage)
+const FeaturedCourse = ({ course }) => {
+  const { slug, headerImage, title, introduction } = course
 
   return (
     <FeaturedCourseStyles>
-      <Link to={gatsbyPath}>
-        <GatsbyImage
+      <Link to={`/courses/${slug}`}>
+        <img
+          src={headerImage}
+          alt="A kitten"
           className="features__item--img"
-          image={image}
-          alt="Product Image"
+          loading="lazy"
         />
         {title && introduction && (
           <div className="features__item--content">

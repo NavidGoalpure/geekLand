@@ -59,6 +59,9 @@ export const FeaturedCourseStyles = styled.aside`
     right: 0;
     bottom: 0;
     z-index: 1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
     transition: transform 0.3s ease, opacity 0.3s ease;
   }
 

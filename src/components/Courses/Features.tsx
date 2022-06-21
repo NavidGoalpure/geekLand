@@ -22,7 +22,7 @@ const Features = ({ title, introduction }) => {
 
       <div className="container container__tight container__scroll">
         {featuredProduct.map((node, index) => {
-          return <FeaturedCourse feature={node} key={index} />
+          return <FeaturedCourse course={node} key={index} />
         })}
       </div>
       <div className="container container__tight learn__more">
