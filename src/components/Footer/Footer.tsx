@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { menuItems } from "../../constants/links"
 import { FooterStyles, FooterMenuStyles, CopyrightStyles } from "./FooterStyles"
-import useAllProduct from "../../hooks/use-all-product"
+import { allContentfulCourse } from "../../constants/contents"
 import {
   FaFacebookSquare as Facebook,
   FaTwitterSquare as Twitter,
@@ -12,7 +12,7 @@ import {
 import { useConfig } from "../../hooks/useConfig"
 
 const Footer = () => {
-  const allProduct = useAllProduct()
+  const allProduct = allContentfulCourse
   const { siteMetadata } = useConfig()
   return (
     <FooterStyles style={{ marginBottom: 0 }} className="section">
@@ -36,7 +36,7 @@ const Footer = () => {
           <FooterMenuStyles className="footer__menu products__menu">
             <h5>
               <Link to="/products">
-                All Products<span>.</span>
+                All Courses<span>.</span>
               </Link>
             </h5>
             <ul>

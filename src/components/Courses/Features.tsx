@@ -1,13 +1,12 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import useFeaturedProduct from "../../hooks/use-featured-product"
 import Button from "../Button/Button"
 import { FeaturedCoursesStyles } from "./FeaturesStyles"
 import FeaturedCourse from "./FeaturedCourse"
-import useFeaturedCourse from "../../hooks/useFeaturedCourses"
+import useFeaturedCourses from "../../hooks/useFeaturedCourses"
 
 const Features = ({ title, introduction }) => {
-  const featuredProduct = useFeaturedCourse()
+  const featuredCourses = useFeaturedCourses()
 
   return (
     <FeaturedCoursesStyles className="section">
@@ -21,7 +20,7 @@ const Features = ({ title, introduction }) => {
       ) : null}
 
       <div className="container container__tight container__scroll">
-        {featuredProduct.map((node, index) => {
+        {featuredCourses.map((node, index) => {
           return <FeaturedCourse course={node} key={index} />
         })}
       </div>

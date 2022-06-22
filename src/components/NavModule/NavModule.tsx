@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import MenuContext from "../MenuContext"
 import { motion } from "framer-motion"
 import { menuItems } from "./NavConstants"
-import useFeaturedProduct from "../../hooks/use-featured-product"
 import { FiChevronDown as Chevron } from "react-icons/fi"
 import {
   NavModuleStyles,
@@ -20,9 +19,10 @@ import {
   subMenuNavVariants,
 } from "./NavAnim"
 import { useConfig } from "../../hooks/useConfig"
+import useFeaturedCourses from "../../hooks/useFeaturedCourses"
 
 const NavModule = () => {
-  const featuredProduct = useFeaturedProduct()
+  const featuredCourses = useFeaturedCourses()
 
   const [isOpen, setNav] = useContext(MenuContext)
   const [subNavIsOpen, setSubNav] = useState(false)
@@ -96,7 +96,7 @@ const NavModule = () => {
               </Link>
             </li>
           ))}
-          {featuredProduct && (
+          {featuredCourses && (
             <li className={subNavIsOpen ? "open" : "closed"}>
               <button
                 type="button"
@@ -118,18 +118,18 @@ const NavModule = () => {
                     onKeyDown={toggleNav}
                     to="/products"
                   >
-                    All Products<span>.</span>
+                    All Course<span>.</span>
                   </Link>
                 </li>
                 <hr />
-                {featuredProduct.map((item, index) => {
-                  const { gatsbyPath, title } = item
+                {featuredCourses.map((item, index) => {
+                  const { slug, title } = item
                   return (
                     <li key={index}>
                       <Link
                         onClick={toggleNav}
                         onKeyDown={toggleNav}
-                        to={gatsbyPath}
+                        to={`/courses/${slug}`}
                       >
                         {title}
                         <span>.</span>

@@ -7,7 +7,6 @@ import PerksModule from "../components/PerksModule/PerksModule"
 import Perk from "../components/PerksModule/Perk"
 import LatestPosts from "../components/Post/LatestPosts"
 import FeaturesCourses from "../components/Courses/Features"
-import Features from "../components/Features/Features"
 
 const Index = () => {
   return (
@@ -30,10 +29,7 @@ const Index = () => {
         <PerksModule>
           <Perk title="The Title" content="The content" />
         </PerksModule>
-        <Features
-          title="Featured Products from GeekLand."
-          introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
-        />
+
         <FeaturesCourses
           title="Featured Courses in GeekLand."
           introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."

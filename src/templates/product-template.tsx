@@ -4,8 +4,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import styled from "styled-components/macro"
 import BannerModule from "../components/BannerModule/BannerModule"
 import Faq from "../components/Faq/Faq"
-import Features from "../components/Features/Features"
-import RichText from "../components/RichText"
+import FeaturesCourses from "../components/Courses/Features"
 
 const ProductTemplateStyles = styled.div`
   .container {
@@ -97,7 +96,11 @@ const Producttemplate = (contentfulProduct) => {
         <div className="container container__tight">
           {description && (
             <div className="column">
-              <RichText richText={description} />
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: description,
+                }}
+              ></div>
             </div>
           )}
           {faqs && (
@@ -119,13 +122,12 @@ const Producttemplate = (contentfulProduct) => {
         <ProductGallery className="section">
           <div className="container container__tight">
             {gallery.map((item, index) => {
-              let galleyImage = getImage(item)
-              return <GatsbyImage key={index} image={galleyImage} />
+              return <img key={index} src={item} />
             })}
           </div>
         </ProductGallery>
       )}
-      <Features
+      <FeaturesCourses
         title="Featured Products from GeekLand."
         introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
       />

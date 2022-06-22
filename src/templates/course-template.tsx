@@ -3,7 +3,7 @@ import Seo from "../components/SEO"
 import styled from "styled-components/macro"
 import BannerModule from "../components/BannerModule/BannerModule"
 import Faq from "../components/Faq/Faq"
-import Features from "../components/Features/Features"
+import FeaturesCourses from "../components/Courses/Features"
 
 const ProductTemplateStyles = styled.div`
   .container {
@@ -121,7 +121,7 @@ const CourseTemplate = (contentfulProduct) => {
           </div>
         </ProductGallery>
       )}
-      <Features
+      <FeaturesCourses
         title="Featured Products from GeekLand."
         introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
       />

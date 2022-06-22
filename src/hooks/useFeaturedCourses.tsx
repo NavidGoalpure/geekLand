@@ -1,6 +1,6 @@
 import { FeaturedCoursesCard } from "../Interfaces"
 
-const useFeaturedCourse = (): FeaturedCoursesCard[] => {
+const useFeaturedCourses = (): FeaturedCoursesCard[] => {
   return [
     {
       id: "1",
@@ -32,4 +32,4 @@ const useFeaturedCourse = (): FeaturedCoursesCard[] => {
   ]
 }
 
-export default useFeaturedCourse
+export default useFeaturedCourses
