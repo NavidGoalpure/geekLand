@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import { FaqStyles } from "./FaqStyles"
 import { MdExpandMore as Chevron } from "react-icons/md"
-import { renderRichText } from "gatsby-source-contentful/rich-text"
 import { motion } from "framer-motion"
 
 const Faq = ({ title, description }) => {

@@ -5,13 +5,14 @@ import { ContactStyles } from "./ContactStyles"
 const Contact = () => {
   return (
     <ContactStyles className="section">
+      {/* @ts-ignore */}
       <form name="contact" netlify>
         <input placeholder="Your name..." type="text" name="name" />
         <input placeholder="Your email..." type="email" name="email" />
         <textarea
           placeholder="Your message..."
           name="message"
-          rows="5"
+          rows={5}
         ></textarea>
         <Button text="Send Message" />
       </form>

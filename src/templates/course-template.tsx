@@ -4,7 +4,6 @@ import styled from "styled-components/macro"
 import BannerModule from "../components/BannerModule/BannerModule"
 import Faq from "../components/Faq/Faq"
 import Features from "../components/Features/Features"
-import RichText from "../components/RichText"
 
 const ProductTemplateStyles = styled.div`
   .container {
